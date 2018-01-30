@@ -11,15 +11,15 @@ import './style/index.less';
 
 // 关闭 HMR 调整 CSS，开启调整 JS
 // if (module.hot) module.hot.accept();
-const App  = () => (
-  <div className = "app-wrapper">
-    <AppHeader />
-    <AppContent />
-    <AppFooter />
-  </div>
+const App = () => (
+    <div className="app-wrapper">
+        <AppHeader/>
+        <AppContent/>
+        <AppFooter/>
+    </div>
 );
 
 // 最终渲染
 ReactDom.render((
-  <App />
+    <App/>
 ), document.getElementById('app'));
